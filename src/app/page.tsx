@@ -22,7 +22,7 @@ export default function HomePage() {
     <div className="min-h-screen flex items-center justify-center">
       <div className="text-center">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">TokoKu</h1>
-        <p className="text-gray-600">Modern Point of Sale System</p>
+        <p className="text-gray-600">Point of Sale System</p>
         <p className="text-sm text-gray-500 mt-2">Redirecting...</p>
       </div>
     </div>
