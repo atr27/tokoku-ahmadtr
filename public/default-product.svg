@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="100" fill="#F3F4F6"/>
+  
+  <!-- Package/Box icon -->
+  <g transform="translate(50, 50)">
+    <!-- Box body -->
+    <path d="M50 30 L90 50 L90 100 L50 120 L10 100 L10 50 Z" fill="#9CA3AF" opacity="0.8"/>
+    
+    <!-- Box top -->
+    <path d="M50 30 L90 50 L50 70 L10 50 Z" fill="#D1D5DB"/>
+    
+    <!-- Box left side -->
+    <path d="M10 50 L10 100 L50 120 L50 70 Z" fill="#6B7280" opacity="0.6"/>
+    
+    <!-- Highlight line -->
+    <path d="M50 30 L50 70" stroke="#E5E7EB" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Small detail lines -->
+    <circle cx="50" cy="50" r="3" fill="#4B5563"/>
+  </g>
+  
+  <!-- Icon label area -->
+  <rect x="60" y="155" width="80" height="20" rx="10" fill="#E5E7EB"/>
+  <text x="100" y="169" font-family="Arial, sans-serif" font-size="12" fill="#6B7280" text-anchor="middle" font-weight="600">PRODUCT</text>
+</svg>
